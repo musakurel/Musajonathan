@@ -1,0 +1,66 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+    color:white;
+}
+
+#email {
+    width:600px;
+    padding: 20px;
+    border-radius: 20px;
+}
+body {
+    width: 550px;
+    padding: 30px;
+    margin: auto;
+    border-radius: 10px;
+    text-align: left;
+    background-color: aqua;
+    font-size: 25px;
+    color:white;
+}
+
+title{
+    font-size: 50px;
+ }
+ #number{
+     width: 600px;
+     padding: 15px;
+     border-radius: 10px;
+ }
+ #submit{
+     width: 580px;
+     font-size: 20px;
+     border-radius: 10px;
+     padding:10px;
+     border: none;
+     margin-top: 4%;
+     background-color: rgb(45, 0, 128)9, 0, 128 7, 0, 128;
+ }
+
+ #name{
+     width:600px;
+     padding: 15px;
+     border-radius: 10px;
+ }
+ #comment {
+     width:600px;
+     padding: 15px;
+     border-radius: 10px;
+     border:none;
+ }
+ 
+ #dropdown{
+     width:600px;
+     padding: 15px;
+     border-radius: 10px;
+ }
+ #description {
+     font-size: 20px;
+ }
+ textarea{
+     width:600px;
+     height: 150px;
+ }
+
+
