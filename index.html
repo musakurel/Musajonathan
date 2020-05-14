@@ -5,8 +5,68 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello jonathan! 
-        Hope you are well.
+    <h1 id="title">
+    	Form 
     </h1>
+    <p id="description">
+    	This is a 
+    </p>
+    <form id="survey-form"> 
+    	<label id="name-label"> Name </label>
+    	<input type="text" id="name" placeholder="John Doe" required="true" />
+    	<label id="email-label"> Email </label>
+    	<input type="email" id="email" required="true" placeholder="John@doe.com">
+    	<label id="number-label"> Number </label>
+    	<input type="number" id="number" required="true" min="3" max="99" placeholder="8">
+    	<label id="drop-down-label">
+    		Technology
+    	</label>
+    	<select id="dropdown">
+    		<option> Angular  </option>
+    		<option> React  </option>
+    		<option> Vue  </option>
+    		<option> NodeJs  </option>
+    	</select>
+
+
+    	<div>
+    		<div> 
+  				<label> Full Stack </label>
+    			<input type="radio" name="stack" value="Fullstack" />
+  				<label> Front End </label>
+    			<input type="radio" name="stack" value="Frontend" />
+  				<label> Back End </label>
+    			<input type="radio" name="stack" value="Backend" />
+    		</div>
+    	</div>
+
+
+    	<div> 
+    		<h5> What Do you want to Learn </h5>
+  			<label> Rails </label>
+    		<input type="checkbox" value="Rails" />
+  			<label> Redux </label>
+    		<input type="checkbox" value="Redux" />
+  			<label> Ionic </label>
+    		<input type="checkbox" value="Ionic" />
+  			<label> React Navtive</label>
+    		<input type="checkbox" value="ReactNative" />
+  			<label> Python </label>
+    		<input type="checkbox" value="Python" />
+  			<label> SQL </label>
+    		<input type="checkbox" value="SQL" />
+    	</div>
+
+    	<label id="textarea-label">
+    		Please Add additional Comments Here
+    	</label>
+    	<textarea id=""> 
+    	</textarea>
+
+    	<button id="submit"> Submit </button>
+    </form>
+
+    <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
 </body>
 </html>
